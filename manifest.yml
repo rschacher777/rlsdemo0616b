@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rlsdemo0616b
+  host: rlsdemo0616b
+  disk_quota: 1024M
+  services:
+  - rlsdemo0616b-cloudantNoSQLDB
